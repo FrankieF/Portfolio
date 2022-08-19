@@ -30,7 +30,8 @@ twitter_username:
 github_username:  frankief
 
 # Build settings
-theme: portfolio-jekyll-theme
+#theme: portfolio-jekyll-theme
+remote_theme: LeNPaul/portfolio-jekyll-theme
 plugins:
   - jekyll-feed
 
