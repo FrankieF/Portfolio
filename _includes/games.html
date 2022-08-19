@@ -1,0 +1,13 @@
+<section>
+    <div class="project-container">
+      {% for game in site.data.settings.games %}
+        <a href="{{ site.github.url }}/games/{{ game.url }}">
+          <div class="project-unit" data-folder="{{ site.github.url }}/games/{{ game.url }}" style="background-image: url({{ site.github.url }}/assets/img/{{ game.url }}/thumbnail.jpg)">
+            <div class="project-overlay">
+              <strong>{{ game.name }} <i class="fa fa-arrow-right" aria-hidden="true"></i></strong>
+            </div>
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+  </section>

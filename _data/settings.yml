@@ -1,0 +1,103 @@
+#-------------------------------
+# General Site Settings
+
+menu:
+- {name: 'Home', url: ''}
+- {name: 'Games', url: 'games'}
+- {name: 'Designs', url: 'designs'}
+- {name: 'Code',  url: 'code'}
+
+#-------------------------------
+# Games Section
+
+games:
+- {name:'C.O.D.E.R.E.D.', url: 'codered'}
+- {name:'Chaos Battle Chess', url: 'cbc'}
+- {name:'Symmetry', url: 'Symmetry'}
+- {name:'Arena Tale', url: 'at'}
+- {name:'Crypt', url: 'crypt'}
+- {name:'Cars Fast as Lightning', url: 'cars'}
+- {name:'Jukebox Paradise', url: 'jp'}
+- {name:'Kevin and Carla', url: 'kc'}
+
+#-------------------------------
+# Designs Section
+
+designs:
+- {name: 'Nintendo Level Design', url: 'NintendoLD.pdf', description: 'A research paper from my masters degree detailing the processes Nintendo uses for 2D level design in Mario and Donkey Kong.'}
+- {name: 'Banjo Kazooie Level Design', url: 'BK.pdf', description: 'A research paper from my masters degree about subconsciously  guiding players in Banjo Kazooie.'}
+- {name: 'ドンキーコングトロピカルフリーズのデザインの上達', url: 'ドンキーコングトロピカルフリーズのデザインの上達.pdf', description: 'ドンキーコングトロピカルフリーズの問題と解決の短い要約。
+
+A short outline of some problems in Donkey Kong Tropical Freeze for the Wii U and possible solutions.　The document is in Japanese.'}
+- {name: 'GUILD WARS 2 CREATURE AND MAP PITCH', url: 'GuildWarsPitch.pdf', description: 'I created a pitch for a new creature and map for Guild Wars 2.'}
+- {name: 'GAME DESIGN DOCUMENT', url: 'GameDesigDocument.pdf', description: 'A game design for Earl the Penguin, a 2.5D side scroller.'}
+- {name: 'TECHNICAL DESIGN DOCUMENT', url: 'TDD.pdf', description: 'For the technical design document for Jukebox Paradise I was responsible for explaining how all of the features and systems of the game worked, and how the team would implement them.'}
+- {name: 'REVERSE ENGINEERING', url: 'ReverseEngineering.pdf', description: 'My team chose to reverse engineer Super Mario U for the Wii U. I was responsible for enemies, bosses and level walkthroughs,'}
+- {name: 'MISSION DESIGN DOCUMENT', url: 'MissionDesign.pdf', description: 'The mission design doc was made for a sequel to the Earl the Penguin GDD.'}
+- {name: 'SKYRIM WITH MASTER CHIEF', url: 'SkyrimasMasterChief.pdf', description: 'I decided to redesign Skyrim using Master Chief from Halo.'}
+- {name: 'LEVEL PITCH DOCUMENT', url: 'LevelSummaryFarCry3.pdf', description: 'A level pitch document I made for an alternate ending to Far Cry 3.'}
+- {name: 'UNREAL TOURNAMENT GAME PITCH', url: 'UnrealPitch.pdf', description: 'One page pitch document for a new Unreal Tournament game.'}
+- {name: 'MOBILE GAME PITCH', url: 'MobilePitch.pdf', description: 'Pitch for a mobile 2D side scrolling game I made.'}
+- {name: 'SINGLE PLAYER LEVEL', url: 'SinglePlayerLevel.pdf', description: 'The single player level was designed for a 5 minute player through that feature at least one puzzle and a choice for the players. The level contains three puzzles and is a 10 minute play through.'}
+- {name: 'DEATH MATCH LEVEL', url: '', description: 'The death match level was designed for 6 people.'}
+
+#-------------------------------
+# Code Section
+
+codes:
+- {name: 'SNES STYLE RPG GAME', url: 'https://github.com/FrankieF/RPG_Game', description: 'I worked with some friends on a prototype for a SNES style rpg game. I was programmed everything in the prototype including AI, game systems, combat, level/inventory systems.'}
+- {name: 'JUKEBOX PARADISE', url: 'https://github.com/FrankieF/JukeboxParadise', description: 'Jukebox Paradise is a 2-4 player written in C# using Unity. I was responsible for coding the game systems (item collection and scoring), players and UI. '}
+- {name: 'ARENA TALE', url: 'https://github.com/FrankieF/ArenaTale', description: 'Arena Tale is a game I did free lance work on for around 6 months. The game was never released and this is a collection of some of the code I wrote. Some of these classes I did not write intially but heavily modified. I wrote all of the AT_ classes, state machines, AI and system code from scratch.'}
+- {name: 'UNREAL 4 SHOOTING GAME', url: 'https://github.com/FrankieF/FPS', description: 'A small demo made in UE4 to implement behavior trees in blueprint and play a level against AI.'}
+- {name: 'PATH FINDING', url: 'https://github.com/FrankieF/PathFinding', description: 'Unity project visualizing 4 different path finding algorithms.'}
+- {name: 'RUBIK CUBE', url: 'https://github.com/FrankieF/Magic-Cube', description: 'A Rubik Cube game I built in a weekend for a game jam. It supports cubes of size 3-6, saving and loading, undoing commands.'}
+- {name: 'KEVIN AND CARLA', url: 'https://github.com/FrankieF/KevinCarla', description: 'Kevin and Carla is a two player game written in ActionScript 3. I was responsible for programming everything in the game including players, level system and a game object system. I also included a math class I created.'}
+- {name: 'MINECRAFT', url: 'https://github.com/FrankieF/Minecraft', description: 'I tried to create Minecraft in Unity using C#.'}
+- {name: 'ARPG GAME', url: 'https://github.com/FrankieF/RPG-Quest', description: 'Top down diablo stype ARPG made for a gamejam.'}
+- {name: 'ONE BUTTON GAME', url: 'https://github.com/FrankieF/One-Button-Game', description: 'One button game in Unity in one day for a gamejam.'}
+- {name: 'STARSHIP GAME', url: 'https://github.com/FrankieF/Starship', description: 'I made this game in one day for a gamejam. I wanted to make a game similar to space invaders.'}
+- {name: 'RESTAURANT API', url: 'https://github.com/FrankieF/Restaurant-API', description: 'A simple API for putting orders at tables for a restaurant built in Rust to learn Rust. '}
+- {name: 'MEMORY MANAGER', url: 'https://github.com/FrankieF/Programming/tree/master/C%2B%2B/Memory%20Manager', description: '16K memory manager written in C++'}
+- {name: 'BOGGLE SOLVER', url: 'https://github.com/FrankieF/Programming/tree/master/C%23/Boggle', description: 'Dynamic programming implementation of a boggle solving algorithm written in C#.'}
+- {name: 'HTML PARSER', url: 'https://github.com/FrankieF/Programming/tree/master/C%23/HTML%20Parser', description: 'Simple plain formatted text to HTML parser written in C#.'}
+- {name: 'SINGLE PAYMENT VERIFICATION (SPV) BITCOIN CLIENT', url: 'https://github.com/FrankieF/FJSTSeniorProjectSpring2017', description: 'For my senior project at Rowan my group created a SPV bitcoin client and wallet.'}
+- {name: 'BLACK JACK AI', url: 'https://github.com/FrankieF/AI_Project', description: 'Created an AI to play black jack.'}
+- {name: 'RSA ENCRYPTION', url: 'https://github.com/Bufft25/Crypto-Project-RSA', description: 'An implementation of RSA (Rivest Shamir Leonard) Encryption system written in Java.'}
+- {name: 'SDES ENCRYPTION', url: 'https://github.com/FrankieF/SDES', description: 'An implementation of SDES (Simplified Data Encryption Standard) system written in Java.'}
+- {name: 'HEXNUMBER', url: 'https://github.com/FrankieF/HexNumer', description: 'An implementation of a hexadecimal number class written in Java.'}
+
+#-------------------------------
+# Contact Section
+
+social:
+- {icon: 'github',    link: 'https://github.com/frankief'}
+- {icon: 'linkedin',  link: 'https://www.linkedin.com/in/frankiefasola/'}
+
+# social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'Frankie Fasola Personal portfolio Video Games Game Designer'
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+# If you are not using Google Analytics, please change 'google-ID' to an empty string
+google_analytics: 'G-80DCJ0Q02Y'
+
+#-------------------------------
+# Disqus Section
+
+# Change to true for Disqus comments
+disqus:
+  comments: false
+  disqus_shortname: ''
