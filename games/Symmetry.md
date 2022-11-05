@@ -1,12 +1,12 @@
 ---
 layout: post
-title: 'SYMMETRY'
+title: 'Symmetry'
 ---
 
 Symmetry is a 3D platforming challenge like no other! Play solo or against up to 3 others in Symmetry - a ball roller that is sure to put your nerves to the test!
 I worked as a translator translating the game into Japanese.   [Steam Link](https://store.steampowered.com/app/1130400/Symmetry_Early_Access/)
 
-{% include image.html url="https://store.steampowered.com/app/1130400/Symmetry_Early_Access/" image="SYMMETRY/thumbnail.jpg" %}
+{% include image.html url="https://store.steampowered.com/app/1130400/Symmetry_Early_Access/" image="Symmetry/thumbnail.jpg" %}
 
 Translation
 
