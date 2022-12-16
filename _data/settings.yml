@@ -29,6 +29,7 @@ designs:
 - {name: 'ドンキーコングトロピカルフリーズのデザインの上達', url: 'ドンキーコングトロピカルフリーズのデザインの上達.pdf', description: 'ドンキーコングトロピカルフリーズの問題と解決の短い要約。
 
 A short outline of some problems in Donkey Kong Tropical Freeze for the Wii U and possible solutions.　The document is in Japanese.'}
+- {name: 'Exploring Modern Design Mechanics in Retro Adventure Games', url: 'Thesis.pdf', description: 'My thesis for masters degree.'}
 - {name: 'GUILD WARS 2 CREATURE AND MAP PITCH', url: 'GuildWarsPitch.pdf', description: 'I created a pitch for a new creature and map for Guild Wars 2.'}
 - {name: 'GAME DESIGN DOCUMENT', url: 'GameDesigDocument.pdf', description: 'A game design for Earl the Penguin, a 2.5D side scroller.'}
 - {name: 'TECHNICAL DESIGN DOCUMENT', url: 'TDD.pdf', description: 'For the technical design document for Jukebox Paradise I was responsible for explaining how all of the features and systems of the game worked, and how the team would implement them.'}
